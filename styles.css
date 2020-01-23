@@ -1,0 +1,267 @@
+html, body{
+    background: rgb(239, 242, 243);
+}
+.topbar {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-color: dimgrey;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+}
+.rotulocolegio{
+    color: rgb(2, 163, 163);
+    margin-left: 3rem;
+    font-size: 22px;
+    
+}
+.rotulolibgris{
+    color: rgb(228, 226, 226);
+    font-size: 19px;
+    margin-left: 2rem;
+    margin-top: 30px;
+}
+.squaredlist{
+    background-color: rgb(255, 255, 255);
+    border-color: lightgrey;
+    border-radius: 0.8rem;
+    box-sizing: content-box;
+    width: 15.5rem;
+    margin-left: 3rem;
+    padding: 3rem 2.5rem 2rem 2.5rem;
+    margin-top: 3.5rem;
+}
+.paquetes{
+    color: rgb(228, 226, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.selected{
+    color: rgb(2, 163, 163);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline rgb(2, 163, 163);
+}
+.courses{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2rem;
+}
+.courses:hover{
+    font-size: 15px;
+    text-decoration: underline gray;
+}
+.courses:checked{
+    color:rgb(2, 163, 163);
+    text-decoration: underline rgb(2, 163, 163);
+}
+.researcher{
+    border-radius: 3rem;
+    border-style: solid;
+    color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 3rem;
+    width: 12rem;
+}
+.researcher:active{
+    content: none;
+}
+.addpack{
+    border-top: rgb(212, 212, 212) 1px solid;
+    color: rgb(2, 163, 163);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 850;
+    padding: 3rem 0rem 0rem 0rem;
+    
+}
+.addbutton{
+    background-color: rgb(2, 163, 163);
+    border-radius: 3rem;
+    border-style: none;
+    color: ivory;
+    font-size: 2rem;
+    font-weight: 900;
+    height: 3rem;
+    width: 3rem;    
+}
+.addbutton:hover{
+    background-color: grey;
+}
+.bookarea{
+    padding: 3rem;
+}
+.primerobasico{
+    color:  rgb(2, 163, 163);
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-left: 2rem;
+}
+.edit{
+    background: url("EDIT.jpg");
+    border-style: none;
+    height: 1.8rem;
+    margin-left: 1rem;
+    width: 2.1rem;
+}
+.edit:hover{
+    border-style: solid;
+}
+.delete{
+    background: url("DELETE.jpg");
+    border-style: none;
+    height: 2rem;
+    width: 1.6rem;
+}
+.delete:hover{
+    border-style: solid;
+}
+.addbook{
+    
+    background-color: rgb(81, 202, 81) ;
+    border-radius: 2.5rem;
+    border-style: none;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 2.5rem;
+    padding: 1rem 2rem 1.5rem 2rem ;
+    margin-left: 40rem;
+}
+.addbook:hover{
+    background-color: grey;
+}
+.addcat{
+    background-color:  rgb(3, 192, 192) ;
+    border-radius: 2.5rem;
+    border-style: none;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 2.5rem;
+    padding: 1rem 2rem 1.5rem 2rem ;
+}
+.addcat:hover{
+    background-color: grey;
+}
+.candado{
+    border-left: rgb(212, 212, 212);
+    border-width: 1px;
+    height: 2rem;
+    margin-left: 65rem;
+    margin-top: 1.5rem;
+    width: 2rem;
+    size: 2px;
+}
+.pasword{
+    background-color:  rgb(255, 255, 255);
+    border-style: none;
+    color: rgb(3, 192, 192);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.pasword:hover{
+    font-size: 15px;
+}
+.jhon{
+    background-color:  rgb(255, 255, 255);
+    border-style: none;
+    color: rgb(2, 163, 163);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+.jhon:hover{
+    font-size: 17px;
+}
+.flecha{
+    background: url("FLECHA.jpg");
+    border-style: none;
+    height: 1.2rem;
+    margin-top: 2.2rem;
+    width: 1.6rem;
+}
+.flecha:hover{
+    border-style: solid;
+}
+.idioma{
+    border-bottom: rgb(212, 212, 212) 1px solid;
+    border-top: rgb(212, 212, 212) 1px solid ;
+    height: 3rem;
+}
+.espanol{
+    border-style: none;
+    color:rgb(2, 163, 163);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 1rem;
+}
+.ingles{
+    border-style: none;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+}
+.dgris{
+    height: 1.6rem;
+}
+
+.books {
+    display: flex;
+}
+
+.book {
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 2rem;
+    overflow: hidden;
+    width: 226px;
+    height: 24rem;
+}
+
+.book__image {
+    background-position: center;;
+    background-size: cover;
+    height: 20rem;
+}
+
+.book__footer {
+    background: white;
+    padding: 16px;
+    position: relative;
+}
+
+.book__title {
+    color: #019c97;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.book__size {
+    color: #777777;
+    font-size: 1rem;
+}
+
+.book__actions {
+    bottom: 0;
+    height: 2rem;
+    position: absolute;
+    right: 0;
+    width: 2rem;
+}
+.book__more{
+    border: none;
+    background-color: honeydew;
+}
